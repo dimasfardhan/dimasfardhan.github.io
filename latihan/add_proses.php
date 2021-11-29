@@ -11,4 +11,4 @@ $jurusan    = $_POST['jurusan'];
 mysqli_query($koneksi,"INSERT INTO siswa VALUES('$nik','$nama','$gender','$alamat','$umur','$jurusan')");
 
 header("location:index.php");
-?>s
+?>
